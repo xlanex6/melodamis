@@ -6,7 +6,7 @@
         Melodamis
       </h1>
       <h2 class="subtitle">
-        New Website for Melodamis non-profit organisation.
+        Chorale de Charnay-les-macon
       </h2>
     </div>
   </section>
@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .container {
   min-height: 100vh;
   display: flex;
@@ -36,7 +36,7 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: $primary;
   letter-spacing: 1px;
 }
 
