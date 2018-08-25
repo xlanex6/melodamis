@@ -4,5 +4,7 @@
 
 Site réalisé avec :
 -[Nuxt.js](https://github.com/nuxt/nuxt.js).
+-Bulma
+-VueJS
 
 
