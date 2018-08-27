@@ -4,7 +4,7 @@
 
 Site réalisé avec :
 -[Nuxt.js](https://github.com/nuxt/nuxt.js).
--Bulma
+-[![Made with Bulma](https://bulma.io/images/made-with-bulma.png)](https://bulma.io)
 -VueJS
 
 

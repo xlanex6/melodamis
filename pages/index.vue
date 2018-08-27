@@ -1,55 +1,56 @@
-<template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        Melodamis
-      </h1>
-      <h2 class="subtitle">
-        Chorale de Charnay-les-macon
-      </h2>
-    </div>
-  </section>
+<template lang="pug">
+  div
+    section.hero.is-medium.is-danger.is-bold.is-large
+      .container
+        nav.level.is-transparent
+            .level-left Home
+            .level-right Agenda Repertoire
+        .hero-body
+          .container
+            h1.title 
+              | Melodamis
+            h2.subtitle
+              | Chorale de Charnay-les-macon
+    section.section
+      .container
+        .columns
+          .column
+            .card
+              .card-content.has-text-centered
+                i.far.fa-clock
+                h3
+                  | voici ma card de merde
+          .column
+            .card
+              .card-content.has-text-centered
+                i.fas.fa-map-marker-alt
+                h3
+                  | voici ma card de merde
+          .column
+            .card
+              .card-content.has-text-centered
+                i.fas.fa-map-marker-alt
+                h3
+                  | voici ma card de merde
+    section.section 
+      .container
+        
+
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+
 
 export default {
   components: {
-    AppLogo
+    
   }
 }
 </script>
 
 <style lang="scss">
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: $primary;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+  i {
+    font-size: 35px;
+  }
 </style>
 
