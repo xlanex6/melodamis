@@ -1,6 +1,6 @@
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/bulma";
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,600');
 
 ////////       SET VARIABLE      ////////////
 $primary: red;
@@ -10,3 +10,7 @@ $warning: blue;
 $danger: indigo;
 $light: lightgrey;
 $dark: darkgrey;
+
+$family-primary: $family-sans-serif;
+$family-sans-serif: 'Montserrat', sans-serif;
+$family-monospace: 'Montserrat';

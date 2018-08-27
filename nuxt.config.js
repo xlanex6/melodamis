@@ -10,7 +10,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'New Website for Melodamis non-profit organisation.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:200,400,600'}
     ]
   },
   modules: [
