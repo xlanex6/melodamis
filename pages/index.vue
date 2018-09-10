@@ -6,7 +6,7 @@
         Melodamis
       </h1>
       <h2 class="subtitle">
-        Chorale de Charnay-les-macon
+        Chorale de Charnay-les-macon 71850
       </h2>
     </div>
   </section>
